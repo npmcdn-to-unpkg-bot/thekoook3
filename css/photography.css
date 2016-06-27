@@ -1,0 +1,102 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+
+}
+
+
+
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+.border{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+    border: 10px solid black;
+    margin: 50px;
+}
+
+.content{
+
+}
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+
+}
+.img{
+  height: auto;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+}
+.myButton {
+	background-color:transparent;
+	border:3px solid black;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+  font-family: 'Oswald', sans-serif;
+	font-size:20px;
+	padding:16px 36px;
+	text-decoration:none;
+
+}
+.myButton:hover {
+background-color: black;
+color: white;}
+
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.button{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+ p{
+   font: normal 13px/54px 'pt mono';
+ font-size: 14px;
+ padding: 40px;
+ text-align: center; }
+
+ .text{
+   width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+ }
+
+.backB{
+  margin-left: 30px;
+margin-top: 30px;
+}
+
+@media screen and (max-width: 700px){
+
+.img{
+  height: 300px;
+  width: 250px;
+}
+ .border{
+   margin: 10px;
+ }
+
+.text{
+  width: 100%;
+}
+}

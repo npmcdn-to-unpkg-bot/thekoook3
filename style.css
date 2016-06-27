@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+background-image: url("images/likedat.gif");
+background-size: cover;
+
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+
+nav{
+  height: 150px;
+  width: 100%;
+}
+nav{
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    background-color: white
+}
+li{
+    display:inline;
+
+}
+a{
+    display:inline-block;
+    padding:10px;
+    text-decoration: none;
+    color: black;
+    margin-top: 40px;
+    font: normal 13px/54px 'pt mono';
+    font-size: 18px;
+}
+h1{
+
+  top: 200px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+}
+
+img{
+  position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+.name{
+
+  width: 90%;
+    height: 500px;
+    background-color: white;
+    margin-left: 50px;
+    margin-top: 140px;
+}
+@media screen and (max-width: 500px) {
+.name{
+  width: 70%;
+}
+
+
+
+
+
+}
